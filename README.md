@@ -1,5 +1,14 @@
-# 概述
-This repository records my undergraduate project 
-
+# overview
+Github is an important curriculum vitae for a software engineer. Thus I use this repository to record my undergraduate project 
+***
 ## gluttonous snake++
+>Environment: vs 2015  + win7  
+> Freshman project  
 
+As a rookie, I write all the codes in one file. and I do not use class but struct because of indolence.  In this  game， I learn some basic concepts of Computer Graphics in this project, especially the collision detection.
+
+*Noted that  Chinese annotation is coded in GBK*   
+
+Show：
+ ![img](./doc/snake.gif) 
+ ***
