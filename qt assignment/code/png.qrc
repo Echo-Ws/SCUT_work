@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>playerright.PNG</file>
+        <file>run1.PNG</file>
+        <file>run2.PNG</file>
+        <file>stick.PNG</file>
+        <file>fly1.PNG</file>
+        <file>fly2.PNG</file>
+        <file>fire.PNG</file>
+        <file>fire2.PNG</file>
+        <file>boom.png</file>
+        <file>star1.PNG</file>
+        <file>star2.PNG</file>
+        <file>star3.PNG</file>
+        <file>star4.PNG</file>
+        <file>star5.PNG</file>
+        <file>background.png</file>
+        <file>title.PNG</file>
+        <file>hp.PNG</file>
+        <file>over.png</file>
+        <file>light.PNG</file>
+        <file>light2.PNG</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>music/title.mp3</file>
+        <file>music/boom.wav</file>
+        <file>music/get.wav</file>
+        <file>music/light.mp3</file>
+        <file>music/normal.mp3</file>
+        <file>music/on.mp3</file>
+        <file>music/over.mp3</file>
+    </qresource>
+</RCC>

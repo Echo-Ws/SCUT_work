@@ -9,6 +9,18 @@ As a rookie, I write all the codes in one file. and I do not use class but struc
 
 *Noted that  Chinese annotation is coded in GBK*   
 
-Show：
+Show： 
  ![img](./doc/snake.gif) 
+ ***
+ ## qt assignment
+ >Environment: QT Creator + QT 5.2.1  + win7  
+> Freshman project  
+
+I use QT to rewrite the snake project.  
+The project is created in the QT Creator.
+You can run the exe version in Win10 if you put the exe into *Qt\5.2.1\msvc2012_64\bin*  
+I also upload my working diaries which record my learning process of QT and the design process.  
+
+Show:  
+ ![img](./doc/qt.gif) 
  ***
