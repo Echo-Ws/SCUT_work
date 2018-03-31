@@ -1,0 +1,48 @@
+.axis path,
+.axis line{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.name{
+    font-size: 10px;
+    text-anchor:end
+}
+.rank {
+    font-size: 8px;
+    text-anchor: middle;
+}
+.sales{
+    font-size: 6px;
+    text-anchor: end;
+    fill: white;
+}
+.sub{
+    font-size: 10px;
+    opacity:0.5;
+
+}
+
+.rankname{
+    font-size: 10px;
+    text-anchor: start;
+}
+
+.ranknum{
+    font-size: 10px;
+    text-anchor: middle;
+    fill:red;
+}
+
+circle {
+    cursor: pointer;
+    fill: red;
+    stroke: steelblue;
+    stroke-width: 2px;
+}

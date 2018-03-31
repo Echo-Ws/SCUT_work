@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>  
+	<meta charset="utf-8">
+    <title>样板1</title>  
+  
+</head>  
+  
+<body>  
+ <script src="d3.min.js" charset="utf-8"></script>
+ <script type="text/javascript" src="parser.js"></script>
+
+ <script>
+  
+var data1 = [
+   {
+    "id": 0, 
+    "cont": "我", 
+   
+    "parent": 1, 
+    "relate": "SBV", 
+   
+   }, 
+   {
+    "id": 1, 
+    "cont": "是", 
+   
+    "parent": -1, 
+    "relate": "HED", 
+    
+   }, 
+   {
+    "id": 2, 
+    "cont": "中国", 
+   
+    "parent": 3, 
+    "relate": "ATT", 
+ 
+   }, 
+   {
+    "id": 3, 
+    "cont": "人", 
+    
+    "parent": 1, 
+    "relate": "VOB", 
+   
+   }, 
+   {
+    "id": 4, 
+    "cont": "。", 
+  
+ 
+    "parent": -1, 
+    "relate": "WP", 
+ 
+   }
+  ]; 
+   var data =  [ { "id": 0, "cont": "你们", "pos": "r", "ne": "O", "parent": 7, "relate": "SBV", "semparent": 3, "semrelate": "Poss", "arg": [] }, { "id": 1, "cont": "对", "pos": "p", "ne": "O", "parent": 5, "relate": "ATT", "semparent": 2, "semrelate": "mPrep", "arg": [] }, { "id": 2, "cont": "系统", "pos": "n", "ne": "O", "parent": 3, "relate": "ATT", "semparent": 3, "semrelate": "Datv", "arg": [] }, { "id": 3, "cont": "准确性", "pos": "n", "ne": "O", "parent": 1, "relate": "POB", "semparent": 5, "semrelate": "Loc", "arg": [] }, { "id": 4, "cont": "的", "pos": "u", "ne": "O", "parent": 1, "relate": "RAD", "semparent": 3, "semrelate": "mAux", "arg": [] }, { "id": 5, "cont": "评判", "pos": "v", "ne": "O", "parent": 7, "relate": "SBV", "semparent": 7, "semrelate": "Exp", "arg": [] }, { "id": 6, "cont": "能", "pos": "v", "ne": "O", "parent": 7, "relate": "ADV", "semparent": 7, "semrelate": "mMod", "arg": [] }, { "id": 7, "cont": "让", "pos": "v", "ne": "O", "parent": -1, "relate": "HED", "semparent": -1, "semrelate": "Root", "arg": [ { "id": 0, "type": "A0", "beg": 0, "end": 0 }, { "id": 1, "type": "A0", "beg": 1, "end": 5 }, { "id": 2, "type": "A1", "beg": 8, "end": 8 }, { "id": 3, "type": "A2", "beg": 9, "end": 12 } ] }, { "id": 8, "cont": "我们", "pos": "r", "ne": "O", "parent": 7, "relate": "DBL", "semparent": 7, "semrelate": "Datv", "arg": [] }, { "id": 9, "cont": "做", "pos": "v", "ne": "O", "parent": 7, "relate": "VOB", "semparent": 10, "semrelate": "rProd", "arg": [] }, { "id": 10, "cont": "的", "pos": "u", "ne": "O", "parent": 9, "relate": "RAD", "semparent": 12, "semrelate": "Exp", "arg": [] }, { "id": 11, "cont": "更", "pos": "d", "ne": "O", "parent": 12, "relate": "ADV", "semparent": 12, "semrelate": "mDegr", "arg": [] }, { "id": 12, "cont": "好", "pos": "a", "ne": "O", "parent": 9, "relate": "CMP", "semparent": 7, "semrelate": "eCau", "arg": [ { "id": 0, "type": "ADV", "beg": 11, "end": 11 } ] }, { "id": 13, "cont": "!", "pos": "wp", "ne": "O", "parent": 7, "relate": "WP", "semparent": 12, "semrelate": "mPunc", "arg": [] } ] ;
+ 
+ 
+	parser(data);
+ 
+ </script>
+
+
+
+	
+</body>  
+
+
+
+
+
+
+
+</html>

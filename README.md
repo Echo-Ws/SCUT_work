@@ -9,8 +9,10 @@ As a rookie, I write all the codes in one file. and I do not use class but struc
 
 *Noted that  Chinese annotation is coded in GBK*   
 
-Show： 
+Show： <div align=center> 
  ![img](./doc/snake.gif) 
+ </div>
+
  ***
  ## qt assignment
  >Environment: QT Creator + QT 5.2.1  + win7  
@@ -22,5 +24,22 @@ You can run the exe version in Win10 if you put the exe into *Qt\5.2.1\msvc2012_
 I also upload my working diaries which record my learning process of QT and the design process.  
 
 Show:  
+<div align=center> 
+
  ![img](./doc/qt.gif) 
+ </div>
+
  ***
+
+ ## Web
+>Sophomore project
+
+Works related to data visualization are based on D3JS .  The most challenge work of these project is 思维树. Due to Chrome does not allow us to load the local file, it is better to use firefox to browse it.
+
+Show:  
+<div align=center>
+
+ ![img](./doc/思维树.gif) 
+
+</div>
+***
