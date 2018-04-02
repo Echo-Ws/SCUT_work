@@ -1,0 +1,309 @@
+/* CSS Document */
+body{
+	background-image:url(../images/indexbackground.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	overflow-x: hidden; overflow-y: hidden;
+	/*background-position: center;*/
+	background-attachment: fixed;
+	/*text-align:center;*/
+
+}
+
+h1{
+    font-family:'华文楷体';
+    margin: 1vh;
+    ext-align:center
+}
+
+
+form{
+    width: 90%;
+}
+
+
+
+#button_box{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+    width:30vw;
+    height: 50vh;
+
+}
+
+#header{
+	float: left;
+    margin-top:20vh
+}
+
+#button_box button{
+    width:20vw;
+
+	background:inherit;
+	background-color:rgba(51, 51, 51, 0.219607843137255);
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(213, 187, 138, 1);
+	border-radius:10px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	font-family:'华文新魏';
+	font-weight:400;
+	font-style:normal;
+    font-size: 2.5em;
+}
+
+
+/*弹出框的css*/
+
+#blanks{
+    display:flex;
+    width:110%;
+    height:110%;
+    position:absolute;
+    top:0;
+    background-color:#333;
+    z-index:1000;
+    -moz-opacity: 8.0;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+
+
+.wood_frame{
+    height:50vh;
+    width:50vw;
+    background-image:url(../images/wood.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+
+    display:flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+
+    position:absolute;
+    top:25vh;
+    left:25vw;
+    z-index:1001;
+    border-radius:5vh;
+    -moz-border-radius:5vh;
+    text-align:center;
+    -webkit-box-shadow: 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px;
+    box-shadow: 3px 3px 3px;
+}
+
+.section{
+    height: 35vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.input_area{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section input, .section button{
+    width: 70%;
+    height: 3vh;
+    font-size:1.3em;
+
+    outline: none;
+    font-weight: 600;
+    color:#7E7B7B;
+    padding: 10px 10px;
+
+    border:1px solid #C2BFBF;
+    margin: 7px 1em;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    background: #F0F0F0;
+    font-family: '华文楷体', sans-serif;
+    float: right;
+}
+#Rank .section,#illustrateframe .section{
+    justify-content: flex-start;
+    width: 90%;
+    height: 70%;
+}
+
+
+#Rank .back_button ,#illustrateframe .back_button{
+    width: 70%;
+    height: 10%;
+    margin: 7px 1em;
+
+    /*position: absolute;*/
+    /*bottom:2vh;*/
+    /*left:3vh*/
+
+}
+
+.section .text{
+    width: 80%;
+}
+
+.wood_frame button{
+    height: 18%;
+    padding: 5px;
+    color: #faddde;
+    border: solid 1px #980c10;
+    background: #d81b21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+    background: -moz-linear-gradient(top, #ed1c24, #aa1317);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+
+}
+
+
+
+/*选项卡*/
+
+
+
+#tags {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 10px;
+    width: 80%
+    padding-top: 0px;
+    height: 23px
+}
+#tags li {
+    background: url(../images/tagleft.gif) no-repeat left bottom;
+    float: left;
+    margin-right: 1px;
+    list-style-type: none;
+    height: 23px;
+}
+#tags li a {
+    padding-right: 10px;
+    padding-left: 10px;
+    background: url(../images/tagright.gif) no-repeat right bottom;
+    float: left;
+    padding-bottom: 0px;
+    color: #999;
+    line-height: 23px;
+    padding-top: 0px;
+    height: 23px;
+    text-decoration: none
+}
+#tags li.emptyTag {
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    WIDTH: 4px
+}
+#tags li.selectTag {
+    background-position: left top;
+    margin-bottom: -2px;
+    position: relative;
+    height: 25px
+}
+
+
+#tags li.selectTag A {
+    BACKGROUND-POSITION: right top;
+    COLOR: #000;
+    LINE-HEIGHT: 25px;
+    HEIGHT: 25px
+}
+#tagContent {
+    width:80%;
+    height: 90%;
+    border-right: #aecbd4 1px solid;
+    padding-right: 1px;
+    border-top: #aecbd4 1px solid;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    border-left: #aecbd4 1px solid;
+    padding-top: 1px;
+    border-bottom: #aecbd4 1px solid;
+    background:inherit;
+}
+
+.tagContent {
+    WIDTH: 100%;
+    HEIGHT: 70%;
+    display: none;
+    background:none;
+    color: #474747;
+
+
+    }
+#tagContent div.selectTag {
+    DISPLAY: block;
+    height: 100%;
+
+}
+
+/*具体排名的格式*/
+.rank_content div{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10%;
+}
+
+#tagContent .tagContent{
+    width: 100%;
+    padding: 0;
+    margin: 1px;
+
+}
+.rank_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+
+}
+
+#option{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 30%;
+    height: 15px;
+}
+
+#option #left{
+    background: url("../images/leftarrow.png") no-repeat;
+    background-size:100% 100%;
+    
+}
+#option #right{
+    background: url("../images/rightarrow.png") no-repeat;
+    background-size:100% 100%;
+}
+#left,#right{
+    width: 40%;
+    height: 15px;
+    padding:0;
+    margin: 0px;
+}
+
+
+
+
+
+

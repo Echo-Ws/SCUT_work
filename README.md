@@ -31,10 +31,10 @@ Show:
 
  ***
 
- ## Web
+ ## data visualization based on web
 >Sophomore project
 
-Works related to data visualization are based on D3JS .  The most challenge work of these project is 思维树. Due to Chrome does not allow us to load the local file, it is better to use firefox to browse it.
+Works related to data visualization are based on D3JS .  The most challenge work of these project is 思维树, which can visualize a json in a particular format. Due to Chrome does not allow us to load the local file, it is better to use firefox to browse it.
 
 Show:  
 <div align=center>
@@ -42,4 +42,18 @@ Show:
  ![img](./doc/思维树.gif) 
 
 </div>
+
+***
+## five-in-a-row
+>Environment: vs 2015  + WebStorm 2016 + win10   
+>Senior project
+
+This project includes two version of five-in-a-row.   
+You can find the detail in [here](https://blog.csdn.net/solo_ws/article/details/79797321).   
+The HTML5 version is shown as follow:   
+<div align=center>
+
+![img](./doc/five-in-a-row.PNG)   
+</div>
+
 ***

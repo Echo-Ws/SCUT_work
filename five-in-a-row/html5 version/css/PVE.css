@@ -1,0 +1,47 @@
+body{
+    background-image:url(../images/u551.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#canvas{
+
+    background-image:url(../images/wood.jpg);
+    border:1px solid;
+    background-size:no-repeat;
+}
+#chessboard{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.button-box{
+
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.button-box button{
+    margin: 0.5rem;
+
+    background-color:rgba(204, 135, 66, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(194, 125, 56, 0.8)), to(rgba(184, 115, 46, 0.8)));
+    background: -moz-linear-gradient(top, rgba(214, 145, 76, 0.8), rgba(194, 125, 56, 0.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(214, 145, 76, 0.8), endColorstr=rgba(204, 135, 66, 0.8));
+
+    border-radius:5px;
+    font-size:1.5rem;
+    color:#FFF;
+    text-shadow:0 0 10px #333;
+}
+
+#type{
+    font-size:1rem;
+    background:inherit;
+    border: none;
+}

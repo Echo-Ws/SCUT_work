@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PVE</title>
+	<link href="css/PVE.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.7.2.min.js"></script>
+
+</head>
+
+<body>
+    <!--新增了h1-->
+
+
+<div id="chessboard">
+    <h1>五&nbsp;子&nbsp;棋&nbsp;人&nbsp;机&nbsp;对&nbsp;战</h1>
+    <div id ='account'>
+        用户：XXX 分数：xxx 执棋：
+        <select id ="type">
+            <option value=1>黑棋</option>
+            <option value=-1>白旗</option>
+        </select>
+    </div>
+    <br>
+    <canvas id="canvas" width="610" height="610" ></canvas>
+
+    <div id="status">XXX,欢迎来到五子棋的世界，请点击开始按钮</div>
+    <div class="button-box">
+        <button type="button" id="start">开&nbsp;&nbsp;&nbsp;&nbsp;始</button>
+        <button type="button" id="huiqi">悔&nbsp;&nbsp;&nbsp;&nbsp;棋</button>
+
+        <a href="index.html" ><button type="button" id="tuichu">退&nbsp;&nbsp;&nbsp;&nbsp;出</button></a>
+
+
+    </div>
+
+</div>
+
+
+    
+</body>
+
+<script>
+    //定义参数
+    var canvas=document.getElementById('canvas');
+    var cxt=canvas.getContext('2d');
+    var img_b=new Image();
+    img_b.src ="images/b.png";
+    var img_w=new Image();
+    img_w.src="images/w.png";
+</script>
+<script src="js/const.js"></script>
+<script src="js/chessboard.js"></script>
+
+<script src="js/interact.js"></script>
+</html>

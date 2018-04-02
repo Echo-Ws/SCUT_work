@@ -1,0 +1,135 @@
+ 0) [9,10],  0 ms
+ 1) [8,9],  191 ms
+ 2) [8,11],  13932 ms
+ 3) [10,9],  1 ms
+ 4) [9,9],  8158 ms
+pbrain-test.exe: depth 50, nodes 0
+ 5) [9,11],  13 ms
+ 6) [10,10],  16662 ms
+pbrain-test.exe: depth 18, nodes 369844
+ 7) [8,8],  898 ms
+ 8) [8,7],  10917 ms
+pbrain-test.exe: depth 18, nodes 153698
+ 9) [9,6],  569 ms
+10) [10,7],  22693 ms
+pbrain-test.exe: depth 20, nodes 383549
+11) [11,7],  969 ms
+12) [11,8],  18875 ms
+pbrain-test.exe: depth 14, nodes 398084
+13) [9,5],  1023 ms
+14) [10,6],  2021 ms
+pbrain-test.exe: depth 14, nodes 144152
+15) [11,10],  363 ms
+pbrain-test.exe: depth 14, nodes 144152
+15) [11,10],  362 ms
+16) [12,11],  5785 ms
+pbrain-test.exe: depth 14, nodes 306795
+17) [8,6],  818 ms
+18) [7,7],  2112 ms
+pbrain-test.exe: depth 12, nodes 271672
+19) [7,8],  717 ms
+20) [6,7],  20675 ms
+21) [9,7],  1 ms
+22) [7,9],  15319 ms
+23) [9,4],  1 ms
+23) [9,4],  0 ms
+22) [9,4],  1007 ms
+pbrain-test.exe: depth 10, nodes 245061
+23) [10,4],  610 ms
+24) [11,3],  9405 ms
+pbrain-test.exe: depth 12, nodes 199078
+25) [6,8],  518 ms
+26) [5,8],  1273 ms
+ I win !
+27) [10,8],  0 ms
+28) [9,8],  1065 ms
+29) [7,5],  0 ms
+26) [10,8],  7408 ms
+27) [5,8],  1 ms
+24) [10,8],  3375 ms
+pbrain-test.exe: depth 12, nodes 119750
+25) [5,7],  331 ms
+26) [12,8],  9895 ms
+pbrain-test.exe: depth 20, nodes 127199
+27) [13,8],  386 ms
+28) [12,9],  3791 ms
+pbrain-test.exe: depth 14, nodes 44366
+29) [12,10],  175 ms
+30) [13,10],  928 ms
+31) [14,11],  1 ms
+32) [14,9],  6083 ms
+pbrain-test.exe: depth 12, nodes 153678
+33) [11,12],  392 ms
+34) [15,8],  1687 ms
+35) [16,7],  0 ms
+36) [15,9],  1248 ms
+pbrain-test.exe: depth 12, nodes 70861
+37) [13,9],  215 ms
+38) [15,10],  4720 ms
+pbrain-test.exe: depth 12, nodes 80476
+39) [15,7],  201 ms
+40) [15,11],  972 ms
+41) [15,12],  1 ms
+42) [14,7],  10895 ms
+43) [11,11],  0 ms
+43) [11,11],  0 ms
+42) [11,11],  678 ms
+pbrain-test.exe: depth 4, nodes 275
+43) [12,2],  7 ms
+44) [11,3],  2411 ms
+pbrain-test.exe: depth 10, nodes 37653
+45) [13,13],  128 ms
+46) [14,7],  30020 ms
+pbrain-test.exe: depth 12, nodes 35178
+47) [13,6],  151 ms
+48) [16,9],  6337 ms
+pbrain-test.exe: depth 12, nodes 31894
+49) [17,10],  117 ms
+50) [17,9],  739 ms
+51) [18,9],  1 ms
+52) [17,8],  9369 ms
+53) [16,11],  1 ms
+52) [16,11],  853 ms
+pbrain-test.exe: depth 4, nodes 4417
+53) [15,6],  42 ms
+54) [17,8],  2081 ms
+55) [16,6],  1 ms
+56) [14,6],  4235 ms
+57) [14,8],  1 ms
+
+test 30.0 wins
+
+test 30.0:  286 ms/turn
+Human:  6996 ms/turn
+54) [14,5],  4834 ms
+55) [16,6],  2 ms
+48) [16,9],  6100 ms
+pbrain-test.exe: depth 12, nodes 31894
+49) [17,10],  106 ms
+50) [17,9],  800 ms
+51) [18,9],  0 ms
+50) [16,11],  2327 ms
+pbrain-test.exe: depth 8, nodes 15404
+51) [16,10],  80 ms
+52) [17,12],  5964 ms
+53) [18,13],  0 ms
+54) [17,9],  2663 ms
+55) [18,9],  1 ms
+56) [14,6],  4955 ms
+pbrain-test.exe: depth 16, nodes 35534
+57) [14,8],  114 ms
+pbrain-test.exe: depth 16, nodes 35534
+57) [14,8],  124 ms
+56) [14,8],  733 ms
+pbrain-test.exe: depth 16, nodes 47223
+57) [14,6],  179 ms
+58) [13,5],  3409 ms
+pbrain-test.exe: depth 4, nodes 9
+59) [15,6],  6 ms
+60) [17,6],  823 ms
+61) [17,8],  1 ms
+58) [15,6],  848 ms
+pbrain-test.exe: depth 10, nodes 69615
+59) [13,5],  176 ms
+60) [16,8],  3926 ms
+61) [13,7],  1 ms
