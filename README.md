@@ -50,7 +50,7 @@ Show:
 
 This project includes two version of five-in-a-row.   
 You can find the detail in [here](https://blog.csdn.net/solo_ws/article/details/79797321).   
-The HTML5 version is shown as follow:   
+The HTML5 version is [here](https://echo-ws.github.io/five-in-a-row/)   
 <div align=center>
 
 ![img](./doc/five-in-a-row.PNG)   

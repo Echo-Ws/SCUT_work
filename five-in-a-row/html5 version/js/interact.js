@@ -15,15 +15,15 @@ AI.onmessage = function (e) {
 
     if(s==2){
         win =2;
-        alert("黑棋获胜,请点击开始重新开始")
+        alert("黑棋获胜,请点击开始重新开始. Black Win!")
 
     }else if(s==3){
         win = 3;
-        alert("白棋获胜,请点击开始重新开始")
+        alert("白棋获胜,请点击开始重新开始. White Win！")
 
     }
 
-    set_status("ai 下在"+bestmove.information()+' 用时： '+time+'ms');
+    set_status("ai 下在"+bestmove.information()+' ised time： '+time+'ms');
     ai_think=0;
 };
 
@@ -37,13 +37,14 @@ function set_status(s) {
 
 $("#huiqi").click(function () {
     if (win !=0){
-        set_status('游戏结束 请点击开始按钮')
+        set_status('Gameover. Please press start')
         return
     }
     if(ai_think){
         set_status("AI is thinking. Please be patient.")
         return
     }
+    board.retract();
     board.retract();
     //重绘棋盘
     board.drawboard();
@@ -52,8 +53,8 @@ $("#huiqi").click(function () {
 
 $("#start").click(function () {
     var player_type = $("#type").val();  //获取Select选择的Value
-    var type = player_type==-1?"白子":"黑子"
-    set_status("游戏开始，您执"+type)
+    var type = player_type==-1?"white chess":"black chess"
+    set_status("Game begin, you are using:"+type)
     win =0;
     cxt.clearRect(0, 0, 700, 700);
     board.init();
@@ -67,7 +68,7 @@ $("#start").click(function () {
    //  cons
 canvas.onclick=function(e){//给canvas添加点击事件
     if (win !=0){
-        set_status('游戏结束 请点击开始按钮')
+        set_status('Gameover. Please press start')
         return
     }
     if(ai_think){
@@ -94,17 +95,18 @@ canvas.onclick=function(e){//给canvas添加点击事件
         if(s==2){
             win =2;
 
-            alert("黑棋获胜,请点击开始重新开始")
+            alert("黑棋获胜,请点击开始重新开始. Black Win!")
             return
         }else if(s==3){
             win =3;
 
-            alert("白棋获胜,请点击开始重新开始")
+            alert("白棋获胜,请点击开始重新开始. White Win！")
             return
         }
 
 
         AI.postMessage( command('save',move));
+
         ai_think=1;
         set_status("AI is thinking. Please be patient.")
     }
