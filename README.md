@@ -1,4 +1,4 @@
-# overview
+# Overview
 Github is an important curriculum vitae for a software engineer. Thus I use this repository to record my undergraduate project 
 ***
 ## gluttonous snake++
@@ -50,7 +50,8 @@ Show:
 
 This project includes two version of five-in-a-row.   
 You can find the detail in [here](https://blog.csdn.net/solo_ws/article/details/79797321).   
-The HTML5 version is [here](https://echo-ws.github.io/five-in-a-row/)   
+The Online HTML5 version is [here](https://echo-ws.github.io/five-in-a-row/)  
+Github address is [here](https://github.com/Echo-Ws/five-in-a-row) 
 <div align=center>
 
 ![img](./doc/five-in-a-row.PNG)   
